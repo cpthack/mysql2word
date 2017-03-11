@@ -17,7 +17,7 @@ public abstract class MysqlConfig {
 		{
 			this.put("COLUMN_NAME", "字段名称");
 			this.put("TYPE_NAME", "字段类型");
-			// this.put("COLUMN_DEF", "默认值");
+			this.put("COLUMN_DEF", "默认值");
 			this.put("COLUMN_SIZE", "字段长度");
 			this.put("REMARKS", "备注信息");
 		}
@@ -45,11 +45,11 @@ public abstract class MysqlConfig {
 
 	public static int fieldCount = tableInfo.keySet().size();// 当前字段数量
 
-	private static final String HOST = "192.168.1.117";//需要修改此处
-	private static final String PORT = "3306";//需要修改此处
-	private static final String DATABASE = "fortress";//需要修改此处
-	private static final String USER = "root";//需要修改此处
-	private static final String PWD = "";//需要修改此处
+	private static final String HOST = "192.168.1.117";// 需要修改此处
+	private static final String PORT = "3306";// 需要修改此处
+	private static final String DATABASE = "fortress";// 需要修改此处
+	private static final String USER = "root";// 需要修改此处
+	private static final String PWD = "";// 需要修改此处
 
 	private static final String DRIVER = "com.mysql.jdbc.Driver";
 	private static final String URL = "jdbc:mysql://" + HOST + ":" + PORT + "/"
