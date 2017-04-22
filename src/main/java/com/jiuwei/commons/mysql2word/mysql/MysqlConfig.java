@@ -47,7 +47,7 @@ public abstract class MysqlConfig {
 
 	private static final String HOST = "192.168.1.117";// 需要修改此处
 	private static final String PORT = "3306";// 需要修改此处
-	private static final String DATABASE = "fortress";// 需要修改此处
+	private static final String DATABASE = "jzmao";// 需要修改此处
 	private static final String USER = "root";// 需要修改此处
 	private static final String PWD = "";// 需要修改此处
 
